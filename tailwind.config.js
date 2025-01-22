@@ -2,7 +2,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  
   darkMode: ['class'],
   content: [
     './pages/**/*.{ts,tsx}',
@@ -65,5 +64,3 @@ module.exports = {
   },
   plugins: [require('tailwindcss-animate')],
 };
-
-
