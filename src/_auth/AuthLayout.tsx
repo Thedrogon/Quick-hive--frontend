@@ -13,6 +13,7 @@ const AuthLayout = () => {
 
             <Outlet/>
           </section>
+          <img src='/assets/images/side-img.svg' alt='side image' className='hidden md:block h-screen w-1/2 object-cover bg-no-repeat '/>
           </>
         
       )}
